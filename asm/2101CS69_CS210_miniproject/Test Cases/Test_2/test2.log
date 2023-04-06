@@ -1,0 +1,18 @@
+Double labels with same name!
+Line numbers containing this errors are:- 4 
+
+Wrong function name!
+Line numbers containing this errors are:- b c 
+
+Extra operand in the line!
+Line numbers containing this errors are:- 4 a 9 
+
+No operand needed for this function!
+Line numbers containing this errors are:- 4 a 8 
+
+Calling a label which is not defined in the given asm input!
+Line numbers containing this errors are:- 5 6 8 9 
+
+WARNING:  Multiple label for the given address!
+Line numbers containing this errors are:- 
+

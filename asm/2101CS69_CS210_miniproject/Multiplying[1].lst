@@ -1,0 +1,37 @@
+00000000          i:
+00000000 00000013 data 0
+00000001          j:
+00000001 00000013 data 0
+00000002          a:
+00000002 00000213 data 2
+00000003          b:
+00000003 00000613 data 6
+00000004          res:
+00000004 00000013 data 0
+00000005          loop:
+00000005 00000000 ldc i
+00000006 00000004 ldnl 0
+00000007 00000300 ldc b
+00000008 00000004 ldnl 0
+00000009 00000007 sub 
+0000000a 00000e0f brz done
+0000000b 00000200 ldc a
+0000000c 00000004 ldnl 0
+0000000d 00000400 ldc res
+0000000e 00000004 ldnl 0
+0000000f 00000006 add 
+00000010 00000400 ldc res
+00000011 00000005 stnl 0
+00000012 00000000 ldc i
+00000013 00000004 ldnl 0
+00000014 00000100 ldc 1
+00000015 00000006 add 
+00000016 00000000 ldc i
+00000017 00000005 stnl 0
+00000018 ffffec11 br loop
+00000019          done:
+00000019 00000012 HALT 
+0000001a          ;toassemblethisfreshly(assumingthatasm.cpphasalreadybeencompiled),runthefollowingcommand:
+0000001a ffffe5./asm multiply.asm
+0000001b          ;toexecuteitfreshlywiththeobjectcodeobtaineduponassemblingusingtheemulator(assumingemu.cpphasalreadybeencompiled),runthefollowingcommand:
+0000001b ffffe4./emu object_file.o

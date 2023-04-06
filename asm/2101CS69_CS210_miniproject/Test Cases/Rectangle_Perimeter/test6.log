@@ -1,0 +1,6 @@
+Calling a label which is not defined in the given asm input!
+Line numbers containing this errors are:- 2 5 6 8 9 b c e 12 13 
+
+WARNING:  Multiple label for the given address!
+Line numbers containing this errors are:- 
+

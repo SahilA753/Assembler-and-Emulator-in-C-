@@ -1,0 +1,18 @@
+Wrong label name. Input a continuous label name!
+Line numbers containing this errors are:- 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 
+
+Double labels with same name!
+Line numbers containing this errors are:- 24 
+
+Wrong function name!
+Line numbers containing this errors are:- 22 24 
+
+No operand needed for this function!
+Line numbers containing this errors are:- 1 2 3 4 5 22 24 d 
+
+Operand not set for the given function!
+Line numbers containing this errors are:- 12 18 1d 
+
+Calling a label which is not defined in the given asm input!
+Line numbers containing this errors are:- 9 b f 11 14 16 17 1a 
+
